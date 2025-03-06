@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section, .expenses-list {
+  margin: 20px 0;
+}
+
+input, select, button {
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
